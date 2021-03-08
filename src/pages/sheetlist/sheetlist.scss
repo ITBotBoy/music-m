@@ -1,0 +1,9 @@
+@import '~@/styles/var.scss';
+.sheetlist {
+  .column-wrapper{
+      padding-top: $card-gap-s;
+      .column-item {
+          flex: 0 0 50%;
+      }
+  }
+}

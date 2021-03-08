@@ -1,0 +1,39 @@
+{
+  "files": {
+    "static/css/0.0f177b22.chunk.css": "/static/css/0.0f177b22.chunk.css",
+    "static/js/0.2395f277.chunk.js": "/static/js/0.2395f277.chunk.js",
+    "main.css": "/static/css/main.0869507e.chunk.css",
+    "main.js": "/static/js/main.0fe0bc88.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.ef01770a.js",
+    "static/js/3.c5d6864a.chunk.js": "/static/js/3.c5d6864a.chunk.js",
+    "static/js/3.c5d6864a.chunk.js.map": "/static/js/3.c5d6864a.chunk.js.map",
+    "static/css/4.13709bc2.chunk.css": "/static/css/4.13709bc2.chunk.css",
+    "static/js/4.15803c21.chunk.js": "/static/js/4.15803c21.chunk.js",
+    "static/css/5.453758df.chunk.css": "/static/css/5.453758df.chunk.css",
+    "static/js/5.aed3bf5d.chunk.js": "/static/js/5.aed3bf5d.chunk.js",
+    "static/css/6.8f1d7527.chunk.css": "/static/css/6.8f1d7527.chunk.css",
+    "static/js/6.6360353d.chunk.js": "/static/js/6.6360353d.chunk.js",
+    "static/css/7.8ddcf56b.chunk.css": "/static/css/7.8ddcf56b.chunk.css",
+    "static/js/7.4d885222.chunk.js": "/static/js/7.4d885222.chunk.js",
+    "static/css/8.8fe0a03f.chunk.css": "/static/css/8.8fe0a03f.chunk.css",
+    "static/js/8.180a3aa8.chunk.js": "/static/js/8.180a3aa8.chunk.js",
+    "index.html": "/index.html",
+    "static/css/0.0f177b22.chunk.css.map": "/static/css/0.0f177b22.chunk.css.map",
+    "static/css/4.13709bc2.chunk.css.map": "/static/css/4.13709bc2.chunk.css.map",
+    "static/css/5.453758df.chunk.css.map": "/static/css/5.453758df.chunk.css.map",
+    "static/css/6.8f1d7527.chunk.css.map": "/static/css/6.8f1d7527.chunk.css.map",
+    "static/css/7.8ddcf56b.chunk.css.map": "/static/css/7.8ddcf56b.chunk.css.map",
+    "static/css/8.8fe0a03f.chunk.css.map": "/static/css/8.8fe0a03f.chunk.css.map",
+    "static/css/main.0869507e.chunk.css.map": "/static/css/main.0869507e.chunk.css.map",
+    "static/js/3.c5d6864a.chunk.js.LICENSE.txt": "/static/js/3.c5d6864a.chunk.js.LICENSE.txt",
+    "static/media/menu.scss": "/static/media/aip.638c5150.png",
+    "static/media/disc.49129d00.png": "/static/media/disc.49129d00.png",
+    "static/media/needle.3ac52608.png": "/static/media/needle.3ac52608.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef01770a.js",
+    "static/js/3.c5d6864a.chunk.js",
+    "static/css/main.0869507e.chunk.css",
+    "static/js/main.0fe0bc88.chunk.js"
+  ]
+}

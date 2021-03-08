@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="referrer" content="never">
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/iconfont.css">
+  <script src="%PUBLIC_URL%/config.js"></script>
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_2300167_mf39riz4wv9.css">
+  <style>
+      #appQd {
+          display: none;
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 1996;
+          background: -webkit-linear-gradient(
+                  left,
+                  #d23d3c 0,
+                  #d44031 10%,
+                  #d23c38 30%,
+                  #ce302f 100%
+          );
+      }
+
+      #appQd img {
+          width: 100%;
+      }
+  </style>
+  <title>听音乐</title>
+  <% if ( process.env.NODE_ENV === 'production' ){ %>
+  <% } %>
+</head>
+<body>
+<noscript> 听音乐<br />为了更好的体验请开启script</noscript>
+<div id="appQd">
+</div>
+<div id="root"></div>
+</body>
+</html>

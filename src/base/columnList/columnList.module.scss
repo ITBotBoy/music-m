@@ -1,0 +1,11 @@
+@import '~@/styles/var.scss';
+@import '~@/styles/mixin.scss';
+@import '~@/styles/playCount.scss';
+
+.column-img {
+    @include playCount;
+}
+
+.columnWrapper {
+    @extend %columnWrapper;
+}

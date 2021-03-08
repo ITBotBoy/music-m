@@ -1,0 +1,80 @@
+@import '~@/styles/var.scss';
+
+// 省略号
+@mixin no-wrap($line: 1) {
+  overflow: hidden;
+  @if $line == 1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  } @else {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+  }
+}
+
+// 图片
+@mixin img-full($attr: cover) {
+  width: 100%;
+  height: 100%;
+  object-fit: $attr;
+}
+
+// 背景图
+@mixin bg-full($p: center, $s: contain, $r: no-repeat) {
+  background-position: $p;
+  background-size: $s;
+  background-repeat: $r;
+}
+
+@mixin bg-url($url) {
+  background-image: url($url);
+}
+
+// 滚动
+@mixin scroll($type: y) {
+  @if $type == x {
+    overflow-x: auto;
+    overflow-y: hidden;
+  } @else {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  -webkit-overflow-scrolling: touch;
+}
+%columnWrapper {
+    display: flex;
+    flex-flow: wrap;
+    padding: 0 10px;
+    .column-item {
+        min-width: 0;
+        flex: 0 0 33.33333%;
+        box-sizing: border-box;
+        padding: 0 8px;
+        .column-img {
+            width: 100%;
+            height: 0;
+            padding-top: 100%;
+            border-radius: $card-radio-small;
+            overflow: hidden;
+            position: relative;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                @include img-full;
+            }
+        }
+        .column-title {
+            height: 90px;
+            margin: 10px 10px $card-gap-s;
+            line-height: 45px;
+            color: $columnList-title-color;
+            font-size: $font-size-small-x;
+            word-wrap: break-word;
+            word-break: break-all;
+            @include no-wrap(2);
+        }
+    }
+}
