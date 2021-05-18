@@ -48,11 +48,12 @@ request.interceptors.response.use(
             delete data._t
             let strParams=`${Object.keys(data).map((k) => `${k}=${encodeURI(data[k])}`).join('&')}`;
             let countFlag=strParams?`${strParams}`:url;
+          console.log(response)
             if (response.data.code > 9999) {
                 countObjext[countFlag]++
                 if (countObjext[countFlag] < 2) {
                     const result = await axiosInstance(requestObjext[countFlag])
-                    return result
+                    return {data:result}
                 }
             }else {
                 delete countObjext[countFlag]

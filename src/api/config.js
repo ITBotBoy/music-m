@@ -53,12 +53,13 @@ axiosInstance.interceptors.response.use(
             countObjext[countFlag]++
             if (countObjext[countFlag] < 2) {
                 const result = await axiosInstance(requestObjext[countFlag])
-                return result.data
+                return result
             }
         }else {
             delete countObjext[countFlag]
             delete requestObjext[countFlag]
         }
+        // console.log(res.data,'res.data')
         return res.data
     },
     err => {

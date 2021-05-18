@@ -27,6 +27,7 @@ class Discover extends Component {
     componentDidMount() {
         // alert(window.navigator.userAgent)
         getBanner().then(res => {
+          console.log(res)
             if (res.data.code === HTTP_OK) {
                 this.setState({
                     banners: res.data.banners
